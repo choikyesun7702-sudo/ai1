@@ -8,12 +8,12 @@ import pandas as pd
 st.title("2025 여름연수(카톨릭관동대) 페이지")
 st.title("장소 : 진실관")
 # 2. 부제목
-st.subheader("이 페이지는 다양한 Streamlit 기능을 보여줍니다.")
+st.subheader("전문성 계발직무연수.")
 
 # 3. 판다스 데이터프레임 기반 표 출력
 df = pd.DataFrame({
-    "Name": ["Alice", "Bob", "Charlie"],
-    "Age": [24, 30, 29],
+    "Name": ["choi", "Bob", "Charlie"],
+    "Age": [46, 30, 29],
     "Country": ["Korea", "USA", "UK"]
 })
 st.write("데이터프레임 예제")
@@ -23,7 +23,7 @@ st.dataframe(df)
 st.write("HTML 예제")
 st.markdown(
     """
-    <div style="color: blue; font-size: 20px;">
+    <div style="color: red; font-size: 22px;">
         HTML을 활용한 예시 텍스트입니다.
     </div>
     """,
